@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat sebuah variabel dengan tipe data Object, buat minimal 5 key, kemudian tampilkan value/nilai dari object tersebut.
+    </title>
+</head>
+<body>
+    <script type="text/javascript">
+    let boyband= {
+        name: "BTS",
+        country: "South Korea",
+        member: {
+            lead: "namjoon",
+            leadvoice: "jungkook",
+            leaddance: "hoseok",
+        },
+        album: "BE",
+        song: "dynamite"
+    }
+
+    document.write("<p>Group Name: " + boyband.name + "</p><br>");
+    document.write("<p>From: " + boyband.country + "</p><br>");
+    document.write("<p>Members: " + boyband.member + "</p><br>");
+    document.write("<p>Newest Album: " + boyband.album + "</p><br>");
+    document.write("<p>Song Title: " + boyband.song + "</p><br>");
+
+    console.log(boyband.name)
+    console.log(boyband.member.lead)
+    </script>
+</body>
+</html>
